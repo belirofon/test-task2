@@ -1,0 +1,19 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "author": "belirofon",
+  "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/compressor-brotli": "^2.2.1",
+    "@parcel/compressor-gzip": "^2.2.1",
+    "@parcel/transformer-sass": "^2.2.1",
+    "normalize.css": "^8.0.1",
+    "parcel": "^2.2.1"
+  }
+}
